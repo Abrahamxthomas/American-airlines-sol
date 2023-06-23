@@ -24,7 +24,7 @@ public abstract class Organization {
 
 
 public Optional<Position> hire(Name person, String title) {
-//Here is my Code
+//Here is the implementation of hire method
 Position position = getPosition(root, title);
 
 if (position.getTitle() == null) {
